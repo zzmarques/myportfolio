@@ -1,8 +1,10 @@
-function App() {
+import Header from "./components/Header"
+
+const App = () => {
 
   return (
     <>
-      <h1>Walace Portfolio</h1>
+      <Header/>
     </>
   )
 }
