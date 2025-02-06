@@ -11,7 +11,7 @@ const Header = () => {
 
             <nav className="navbar">
                 <div className="navbar__btn-menu">
-                    <IoMdClose className="menu-icon"/>
+                    <IoMdMenu className="menu-icon"/>
                 </div>
 
                 <div className="container-ul">
