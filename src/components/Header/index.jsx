@@ -11,7 +11,7 @@ const Header = () => {
 
             <nav className="navbar">
                 <div className="navbar__btn-menu">
-                    <RxHamburgerMenu />
+                    <RxHamburgerMenu className="menu-icon"/>
                 </div>
 
                 <ul className="navbar__ul">
