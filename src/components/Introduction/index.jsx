@@ -4,19 +4,19 @@ import img from '../../../public/assets/imgs/home-main.svg';
 const Introduction = () => {
 
     return (
-        <section>
-            <div>
-                <div>
-                    <span>Olá!👋🏻</span>
-                    <span>Eu sou Walace Marques</span>
-                    <span>Desenvolvedor Front-End</span>
+        <section className="container-introduction">
+            <div className="container-texts">
+                <div className="texts__title">
+                    <span className="title">Olá!👋🏻</span>
+                    <span className="title">Eu sou <span className="destaque">Walace Marques</span></span>
+                    <span className="subtitle">Desenvolvedor Front-End</span>
                 </div>
-                <div>
+                <div className="social-midia">
                     <FaLinkedin />
                     <FaGithub />
                 </div>
             </div>
-            <div>
+            <div className="container-img">
                 <img src={img} alt="home hero" />
             </div>
         </section>
