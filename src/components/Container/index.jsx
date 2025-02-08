@@ -1,9 +1,11 @@
+import "../../sass/components/Container.sass"
 
-
-const container = ({ children }) => {
+const Container = ({ children }) => {
     return (
-        <main>
+        <main className="container">
             { children }
         </main>
     )
 }
+
+export default Container;
