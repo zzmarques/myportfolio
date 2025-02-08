@@ -1,4 +1,4 @@
-import "../../sass/components/Header.sass";
+import "../../sass/components/_Header.sass";
 import  img from "../../../public/assets/imgs/logo.png";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 

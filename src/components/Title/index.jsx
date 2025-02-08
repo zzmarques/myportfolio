@@ -1,3 +1,7 @@
+import "../../sass/components/_Title.sass";
+
+
+
 const Title = ({ children }) => {
     return (
         <div className="container-title">

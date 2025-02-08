@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import img from '../../../public/assets/imgs/home-main.svg';
-import "../../sass/components/Introduction.sass";
+import "../../sass/components/_Introduction.sass";
 
 
 const Introduction = () => {
