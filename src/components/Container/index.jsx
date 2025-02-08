@@ -1,4 +1,4 @@
-import "../../sass/components/Container.sass"
+import "../../sass/components/_Container.sass"
 
 const Container = ({ children }) => {
     return (

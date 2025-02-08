@@ -1,14 +1,17 @@
-import AboutMe from "./components/AboutMe"
-import Header from "./components/Header"
-import Introduction from "./components/Introduction"
+import AboutMe from "./components/AboutMe";
+import Header from "./components/Header";
+import Introduction from "./components/Introduction";
+import Container from "./components/Container";
 
 const App = () => {
 
   return (
     <>
       <Header/>
-      <Introduction/>
-      <AboutMe/>
+      <Container>
+        <Introduction/>
+        <AboutMe/>
+      </Container>
     </>
   )
 }
