@@ -1,10 +1,12 @@
 import img from "../../../public/assets/imgs/about.png"
+import Title from "../Title";
 
 
 const AboutMe = () => {
 
     return (
         <section className="container-about">
+            <Title>Sobre Me</Title>
             <div className="container-texts">
                 <p>
                     Sou um desenvolvedor front-end com a ambição de me tornar um desenvolvedor fullstack. Atualmente, estou concentrado em me especializar no front-end, onde posso aplicar e aperfeiçoar minhas habilidades na criação de interfaces web intuitivas e funcionais. Além dos projetos pessoais, também tenho experiência como freelancer, onde enfrentei e superei diversos desafios, sempre buscando soluções criativas e eficazes.
