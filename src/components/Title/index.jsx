@@ -1,9 +1,9 @@
 const Title = ({ children }) => {
     return (
-        <div>
+        <div className="container-title">
             <h1>{ children }</h1>
 
-            <div></div>
+            <div className="linha"></div>
         </div>
     )
 }
