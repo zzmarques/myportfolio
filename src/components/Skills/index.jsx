@@ -1,6 +1,8 @@
 import Title from "../Title";
 import { SiReact, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiGit } from "react-icons/si";
 import { FaSass } from "react-icons/fa6";
+import "../../sass/components/_Skills.sass";
+
 
 
 const Skills = () => {
@@ -10,31 +12,31 @@ const Skills = () => {
             <div className="container-cards-skills">
 
                 <div className="cards-skills">
-                    <SiReact/>
+                    <SiReact className="hab"/>
                 </div>
 
                 <div className="cards-skills">
-                    <SiJavascript/>
+                    <SiJavascript className="hab"/>
                 </div>
 
                 <div className="cards-skills">
-                    <SiHtml5/>
+                    <SiHtml5 className="hab"/>
                 </div>
 
                 <div className="cards-skills">
-                    <SiCss3/>
+                    <SiCss3 className="hab"/>
                 </div>
 
                 <div className="cards-skills">
-                    <FaSass/>
+                    <FaSass className="hab"/>
                 </div>
 
                 <div className="cards-skills">
-                    <SiBootstrap/>
+                    <SiBootstrap className="hab"/>
                 </div>
 
                 <div className="cards-skills">
-                    <SiGit/>
+                    <SiGit className="hab"/>
                 </div>
             </div>
         </section>
