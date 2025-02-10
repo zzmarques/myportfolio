@@ -5,28 +5,35 @@ import { FaSass } from "react-icons/fa6";
 
 const Skills = () => {
     return (
-        <section>
+        <section className="container-skills">
             <Title>Habilidades</Title>
-            <div>
-                <div>
+            <div className="container-cards-skills">
+
+                <div className="cards-skills">
                     <SiReact/>
                 </div>
-                <div>
+
+                <div className="cards-skills">
                     <SiJavascript/>
                 </div>
-                <div>
+
+                <div className="cards-skills">
                     <SiHtml5/>
                 </div>
-                <div>
+
+                <div className="cards-skills">
                     <SiCss3/>
                 </div>
-                <div>
+
+                <div className="cards-skills">
                     <FaSass/>
                 </div>
-                <div>
+
+                <div className="cards-skills">
                     <SiBootstrap/>
                 </div>
-                <div>
+
+                <div className="cards-skills">
                     <SiGit/>
                 </div>
             </div>
