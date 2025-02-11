@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Container from "./components/Container";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
         <Introduction/>
         <AboutMe/>
         <Skills/>
+        <Projects/>
       </Container>
     </>
   )
