@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <section className="container-contact">
             <Title>Contato</Title>
-            <div className="container-midea-social">
+            <div className="container-midia-social">
 
                 <div className="cards-midia-social">
 

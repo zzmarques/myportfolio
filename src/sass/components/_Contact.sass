@@ -5,10 +5,25 @@
     @include containerPattern
     padding: 40px 0 
 
-    .container-midea-social
+    .container-midia-social
         display: flex
         flex-direction: column
         align-items: center
         gap: 30px
         height: 100%
         padding: 30px 0
+
+        .cards-midia-social
+            cursor: pointer
+            @include center
+            flex-direction: column
+            gap: 20px
+            width: 260px
+            height: 260px
+            border: 1px solid $border-color
+            box-shadow: $box-shadow-color 4px 5px 4px 3px
+            transition: transform 0.5s ease-in-out, border-color 0.5s ease-in-out
+
+            &:hover
+                transform: scale(0.9)
+                border: 1px solid #A410E3
