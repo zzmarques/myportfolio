@@ -4,42 +4,44 @@ import Title from "../Title";
 
 const Contact = () => {
     return (
-        <section>
+        <section className="container-contact">
             <Title>Contato</Title>
-            <div>
+            <div className="container-midea-social">
 
-                <div>
+                <div className="cards-midia-social">
 
-                    <div>
-                        <MdOutlineEmail />
-                        <span>E-mail</span>
+                    <div className="container-icon">
+                        <MdOutlineEmail  className="icon"/>
+                        <span className="titulo">E-mail</span>
                     </div>
-                    <span>walacemarqs@gmail.com</span>
+                    <span className="subtitulo">walacemarqs@gmail.com</span>
                 </div>
 
-                <div>
+                <div className="cards-midia-social">
 
-                    <div>
-                        <FaWhatsapp />
-                        <span>WhatsApp</span>
+                    <div className="container-icon">
+                        <FaWhatsapp className="icon"/>
+                        <span className="titulo">WhatsApp</span>
                     </div>
-                    <span>(32) 998674766</span>
+                    <span className="subtitulo">(32) 998674766</span>
                 </div>
 
-                <div>
-                    <div>
-                        <FaLinkedin/>
-                        <span>LinkedIn</span>
+                <div className="cards-midia-social">
+
+                    <div className="container-icon">
+                        <FaLinkedin className="icon"/>
+                        <span className="titulo">LinkedIn</span>
                     </div>
-                    <span>@walacemarques</span>
+                    <span className="subtitulo">@walacemarques</span>
                 </div>
 
-                <div>
-                    <div>
-                        <FaGithub/>
-                        <span>Github</span>
+                <div className="cards-midia-social">
+
+                    <div className="container-icon">
+                        <FaGithub className="icon"/>
+                        <span className="titulo">Github</span>
                     </div>
-                    <span>@zzmarques</span>
+                    <span className="subtitulo">@zzmarques</span>
                 </div>
 
             </div>
