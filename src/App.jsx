@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import Container from "./components/Container";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <AboutMe/>
         <Skills/>
         <Projects/>
+        <Contact/>
       </Container>
     </>
   )

@@ -1,8 +1,11 @@
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import Title from "../Title";
+import "../../sass/components/_Contact.sass";
+
 
 const Contact = () => {
+
     return (
         <section className="container-contact">
             <Title>Contato</Title>
@@ -12,36 +15,36 @@ const Contact = () => {
 
                     <div className="container-icon">
                         <MdOutlineEmail  className="icon"/>
-                        <span className="titulo">E-mail</span>
+                        <span className="title">E-mail</span>
                     </div>
-                    <span className="subtitulo">walacemarqs@gmail.com</span>
+                    <span className="subtitle">walacemarqs@gmail.com</span>
                 </div>
 
                 <div className="cards-midia-social">
 
                     <div className="container-icon">
                         <FaWhatsapp className="icon"/>
-                        <span className="titulo">WhatsApp</span>
+                        <span className="title">WhatsApp</span>
                     </div>
-                    <span className="subtitulo">(32) 998674766</span>
+                    <span className="subtitle">(32) 998674766</span>
                 </div>
 
                 <div className="cards-midia-social">
 
                     <div className="container-icon">
                         <FaLinkedin className="icon"/>
-                        <span className="titulo">LinkedIn</span>
+                        <span className="title">LinkedIn</span>
                     </div>
-                    <span className="subtitulo">@walacemarques</span>
+                    <span className="subtitle">@walacemarques</span>
                 </div>
 
                 <div className="cards-midia-social">
 
                     <div className="container-icon">
                         <FaGithub className="icon"/>
-                        <span className="titulo">Github</span>
+                        <span className="title">Github</span>
                     </div>
-                    <span className="subtitulo">@zzmarques</span>
+                    <span className="subtitle">@zzmarques</span>
                 </div>
 
             </div>
