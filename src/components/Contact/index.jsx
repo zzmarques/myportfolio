@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 import Title from "../Title";
 
 const Contact = () => {
@@ -9,6 +11,7 @@ const Contact = () => {
                 <div>
 
                     <div>
+                        <MdOutlineEmail />
                         <span>E-mail</span>
                     </div>
                     <span>walacemarqs@gmail.com</span>
@@ -17,6 +20,7 @@ const Contact = () => {
                 <div>
 
                     <div>
+                        <FaWhatsapp />
                         <span>WhatsApp</span>
                     </div>
                     <span>(32) 998674766</span>
@@ -24,6 +28,7 @@ const Contact = () => {
 
                 <div>
                     <div>
+                        <FaLinkedin/>
                         <span>LinkedIn</span>
                     </div>
                     <span>@walacemarques</span>
@@ -31,6 +36,7 @@ const Contact = () => {
 
                 <div>
                     <div>
+                        <FaGithub/>
                         <span>Github</span>
                     </div>
                     <span>@zzmarques</span>
