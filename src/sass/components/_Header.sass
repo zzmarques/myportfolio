@@ -107,6 +107,13 @@
                     height: 2px
                     
 
+                @include desktop
+                    height: 65px
+
+                    &:hover::before
+                        display: block
+                        opacity: 1
+
                 a
                     font-size: 1.3rem
                     color: $white-color
