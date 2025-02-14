@@ -64,6 +64,23 @@
         .social-midia
             display: none
 
+            @include desktop
+                display: flex
+                align-items: flex-end
+                height: 100px
+                gap: 20px
+                padding-bottom: 20px
+
+            .icon
+                font-size: 2.3rem
+                color: $color-1
+                cursor: pointer
+                transition: transform 0.5s ease-in-out, color 0.5s ease-in-out
+
+                &:hover
+                    transform: scale(1.3)
+                    color: $white-color
+
 
     .container-img 
         height: 438px
