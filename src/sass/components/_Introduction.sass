@@ -7,7 +7,15 @@
     gap: 20px
     width: 327px
     padding-block: 20px
-    
+
+    @include desktop
+        width: 100%
+        height: calc( 100vh - 90px )
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        padding-inline: 80px
+
     .container-texts
         display: flex
         flex-direction: column

@@ -19,8 +19,8 @@ const Introduction = () => {
                 </div>
 
                 <div className="social-midia">
-                    <FaLinkedin />
-                    <FaGithub />
+                    <FaLinkedin className="icon"/>
+                    <FaGithub className="icon"/>
                 </div>
 
             </div>
