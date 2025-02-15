@@ -5,19 +5,30 @@
     @include containerPattern
     padding-block: 40px
 
-    .container-texts
+    @include desktop
+        width: 100%
+        height: 100vh
+        padding-inline: 80px
+        
+
+    .container-content
         display: flex
         flex-direction: column
-        gap: 10px
-    
-        p
-            text-align: left
-            line-height: 22px
-            font-size: 15px
-            color: $text-color2
-        
-    .container-img
+        gap: 20px
 
-        img 
-            width: 100%
-            height: 100%
+        .container-texts
+            display: flex
+            flex-direction: column
+            gap: 10px
+        
+            p
+                text-align: left
+                line-height: 22px
+                font-size: 15px
+                color: $text-color2
+            
+        .container-img
+
+            img 
+                width: 100%
+                height: 100%
