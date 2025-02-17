@@ -3,13 +3,26 @@
     
 .container-skills
     @include containerPattern
+    gap: 40px
     padding-block: 40px
+
+    .container-text-skills
+
+        p
+            text-align: left
+            line-height: 22px
+            font-size: 15px
+            color: $text-color2
+
+            span
+                color: $color-1
+                font-weight: bold
 
     .container-cards-skills
         display: grid
         grid-template-columns: repeat(2, 140px)
         align-content: center
-        justify-content: center
+        justify-content: space-between
         gap: 20px
         height: 100%
 
