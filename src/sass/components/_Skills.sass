@@ -3,47 +3,57 @@
     
 .container-skills
     @include containerPattern
-    gap: 40px
     padding-block: 40px
 
-    .container-text-skills
+    @include desktop
+        width: 100%
+        height: 100vh
+        border: 1px solid red
 
-        p
-            text-align: left
-            line-height: 22px
-            font-size: 15px
-            color: $text-color2
+    .container-skills-content
+        display: flex
+        flex-direction: column
+        gap: 40px
+        border: 1px solid red
 
-            span
-                color: $color-1
-                font-weight: bold
+        .container-text-skills
 
-    .container-cards-skills
-        display: grid
-        grid-template-columns: repeat(2, 140px)
-        align-content: center
-        justify-content: space-between
-        gap: 20px
-        height: 100%
+            p
+                text-align: left
+                line-height: 22px
+                font-size: 15px
+                color: $text-color2
 
-        .cards-skills
-            @include center
-            flex-direction: column
-            width: 140px
-            height: 140px
-            border: 1px solid $border-color
-            box-shadow: $box-shadow-color 4px 5px 4px 3px
-            transition: transform 0.5s ease-in-out, border-color 0.5s ease-in-out
-        
-            .hab
-                font-size: 4rem
-                color: $border-color
-                transition: color 0.9s ease-in-out
-                
-            &:hover
-                transform: scale(1.1)
-                border: 2px solid $color-1
-            
-                &:hover, .hab
+                span
                     color: $color-1
+                    font-weight: bold
+
+        .container-cards-skills
+            display: grid
+            grid-template-columns: repeat(2, 140px)
+            align-content: center
+            justify-content: space-between
+            gap: 20px
+            height: 100%
+
+            .cards-skills
+                @include center
+                flex-direction: column
+                width: 140px
+                height: 140px
+                border: 1px solid $border-color
+                box-shadow: $box-shadow-color 4px 5px 4px 3px
+                transition: transform 0.5s ease-in-out, border-color 0.5s ease-in-out
+            
+                .hab
+                    font-size: 4rem
+                    color: $border-color
+                    transition: color 0.9s ease-in-out
+                    
+                &:hover
+                    transform: scale(1.1)
+                    border: 2px solid $color-1
+                
+                    &:hover, .hab
+                        color: $color-1
 
