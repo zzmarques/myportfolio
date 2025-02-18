@@ -5,12 +5,19 @@
     @include containerPattern
     padding: 40px 0 
 
+    @include desktop
+        width: 100%
+        height: 100vh
+        padding-inline: 80px
+
     .container-midia-social
         display: flex
         flex-direction: column
         align-items: center
         gap: 30px
         height: 100%
+
+        
 
         .cards-midia-social
             cursor: pointer
