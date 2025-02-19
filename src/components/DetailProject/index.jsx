@@ -1,8 +1,8 @@
 import img from '../../../public/assets/imgs/imagem-branca.png';
-
+import '../../sass/components/_DetailProject.sass';
 const DetailProject = () => {
     return (
-        <section>
+        <section className='container-detail-project'>
             <div>
                 <div>
                     <img src={img} alt="" srcset="" />
