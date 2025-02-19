@@ -1,9 +1,12 @@
+import DetailProject from "../../components/DetailProject";
+import Title from "../../components/Title";
 
 const ProjectDetail = () => {
     return (
-        <div>
-        <h1>Project Detail</h1>
-        </div>
+        <main className="container-project-detail">
+            <Title>Name Projeto</Title>
+            <DetailProject/>
+        </main>
     );
 }
 
