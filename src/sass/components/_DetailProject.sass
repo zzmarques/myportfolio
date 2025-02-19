@@ -1,4 +1,61 @@
+@import '../_mixins'
+@import '../_variables'
+    
 .container-detail-project
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 30px
+    width: 100%
+    padding-block: 30px
 
-    img
-        width: 100px
+    .container-img
+        width: 100%
+        height: 300px
+        
+        img
+            width: 100%
+            height: 100%
+    
+    .container-detail
+        @include containerPattern
+
+        .container-text
+            display: flex
+            flex-direction: column
+            gap: 10px
+
+            h1
+                font-size: 2rem
+                color: $white-color
+
+
+            p
+                text-align: left
+                line-height: 22px
+                font-size: 15px
+                color: $text-color2
+
+        .container-buttons
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 10px
+
+
+            button
+                width: 327px
+                height: 60px
+                background: transparent
+                border-radius: 15px
+                border: 1px solid $border-color
+                box-shadow: $box-shadow-color 4px 5px 4px 3px
+                transition: transform 0.5s ease-in-out, border-color 0.5s ease-in-out, color 0.5s ease-in-out
+                color: $white-color
+                font-size: 15px
+                outline: none
+
+                &:hover
+                    transform: scale(0.9)
+                    border: 1px solid $color-1
+                    color: $color-1
