@@ -8,7 +8,17 @@ const AboutMe = () => {
 
     return (
         <section className="container-about">
-            <Title>Sobre Me</Title>
+            <Title>
+                <div className="wave-container">
+                    <span>S</span>
+                    <span>o</span>
+                    <span>b</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>M</span>
+                    <span>e</span>
+                </div>
+            </Title>
             <div className="container-content">
                 <div className="container-texts">
                     <p>
