@@ -12,7 +12,7 @@ const Introduction = () => {
 
                 <div className="texts__title">
 
-                    <span className="title">Olá!👋🏻</span>
+                    <span className="title">Olá! <span className="emoji">👋🏻</span></span>
                     <span className="title">Eu sou <span className="destaque">Walace Marques</span></span>
                     <span className="subtitle">Desenvolvedor Front-End</span>
                     

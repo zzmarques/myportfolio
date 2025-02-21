@@ -1,5 +1,31 @@
 @import '../mixins.sass'
 @import '../variables.sass'
+
+@keyframes wave
+    0%
+        transform: rotate(0deg)
+
+    10%
+        transform: rotate(14deg)
+
+    20%
+        transform: rotate(-8deg)
+
+    30%
+        transform: rotate(14deg)
+
+    40%
+        transform: rotate(-4deg)
+
+    50%
+        transform: rotate(10deg)
+
+    60%
+        transform: rotate(0deg)
+
+    100%
+        transform: rotate(0deg)
+
     
 .container-introduction
     display: flex
@@ -42,6 +68,13 @@
                 font-size: 25px
                 font-weight: bold
                 color: $white-color
+
+                .emoji
+                    animation-name: wave
+                    animation-duration: 2.1s
+                    animation-iteration-count: infinite
+                    transform-origin: 70% 70%
+                    display: inline-block
 
                 @include desktop
                     font-size: 2.2rem
