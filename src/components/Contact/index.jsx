@@ -8,7 +8,18 @@ const Contact = () => {
 
     return (
         <section className="container-contact">
-            <Title>Contato</Title>
+            <Title>
+                <div className="wave-container">
+                    <span>C</span>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>a</span>
+                    <span>t</span>
+                    <span>o</span>
+                    <span>s</span>
+                </div>
+            </Title>
             <div className="container-midia-social">
 
                 <div className="cards-midia-social">
