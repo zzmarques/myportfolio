@@ -8,7 +8,18 @@ import "../../sass/components/_Projects.sass";
 const Projects = () => {
     return (
         <section className="container-projects">
-            <Title>Projetos</Title>
+            <Title>
+                <div className="wave-container">
+                    <span>P</span>
+                    <span>r</span>
+                    <span>o</span>
+                    <span>j</span>
+                    <span>e</span>
+                    <span>t</span>
+                    <span>o</span>
+                    <span>s</span>
+                </div>
+            </Title>
             <div className="container-cards-projects">
 
                 <div className="cards">
