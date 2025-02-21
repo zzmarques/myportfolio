@@ -1,6 +1,8 @@
 import { SiReact, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiGit } from "react-icons/si";
 import { FaSass } from "react-icons/fa6";
 import img from "../../../public/assets/imgs/imagem-branca.png"
+import "../../sass/components/_CardProject.sass";
+
 
 const CardProject = () => {
     return (
