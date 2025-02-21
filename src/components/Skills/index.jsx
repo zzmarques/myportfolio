@@ -8,7 +8,21 @@ import "../../sass/components/_Skills.sass";
 const Skills = () => {
     return (
         <section className="container-skills">
-            <Title>Habilidades</Title>
+            <Title>
+                <div className="wave-container">
+                    <span>H</span>
+                    <span>a</span>
+                    <span>b</span>
+                    <span>i</span>
+                    <span>l</span>
+                    <span>i</span>
+                    <span>d</span>
+                    <span>a</span>
+                    <span>d</span>
+                    <span>e</span>
+                    <span>s</span>
+                </div>
+            </Title>
             <div className="container-skills-content">
 
                 <div className="container-text-skills">
