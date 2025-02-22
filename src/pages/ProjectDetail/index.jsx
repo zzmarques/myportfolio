@@ -1,6 +1,5 @@
 import DetailProject from "../../components/DetailProject";
-
-import '../../sass/Pages/_ProjectDetail.sass'
+import '../../sass/Pages/_ProjectDetail.sass';
 
 const ProjectDetail = () => {
     return (

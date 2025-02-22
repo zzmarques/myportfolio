@@ -2,6 +2,7 @@
 @import '../_variables'
     
 .container-detail-project
+    position: relative
     display: flex
     flex-direction: column
     align-items: center
@@ -22,7 +23,6 @@
         @include desktop
             width: 600px
             height: 500px
-    
         
         img
             width: 100%
@@ -45,22 +45,36 @@
                 gap: 30px
                 height: 100%
 
-            h1
-                font-size: 2rem
-                color: $white-color
+            .container-cabecalho
+                display: flex
+                flex-direction: column-reverse
+                gap: 10px
 
                 @include desktop
-                    font-size: 2.3rem
+                    justify-content: space-between
+                    flex-direction: row
 
-            p
-                text-align: left
-                line-height: 22px
-                font-size: 15px
-                color: $text-color2
+                h1
+                    font-size: 2rem
+                    color: $white-color
 
-                @include desktop
-                    font-size: 16px
-                    line-height: 25px
+                    @include desktop
+                        font-size: 2.3rem
+            
+            .container-p
+                height: 245px
+                overflow: scroll
+
+                p
+                    text-align: left
+                    line-height: 22px
+                    font-size: 15px
+                    color: $text-color2
+                    
+
+                    @include desktop
+                        font-size: 16px
+                        line-height: 25px
 
         .container-buttons
             display: flex

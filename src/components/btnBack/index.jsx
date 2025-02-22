@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
-import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa6";
+import '../../sass/components/_BtnBack.sass';
 
 
-const btnBack = () => {
+const BtnBack = () => {
     return (
-        <Link to="/">
-            <button>
-                <FaArrowCircleLeft />
+        <Link to="/" className="link">
+            <button className="btn-back">
+                <FaArrowLeft />
                 <span>Voltar</span>
             </button>
         </Link>
     )
 }
 
-export default btnBack;
+export default BtnBack;

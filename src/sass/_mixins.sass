@@ -9,6 +9,16 @@
     gap: 20px
     width: 327px 
 
+@mixin btns()
+    background: transparent
+    border-radius: 15px
+    border: 1px solid $border-color
+    box-shadow: $box-shadow-color 4px 5px 4px 3px
+    transition: transform 0.5s ease-in-out, border-color 0.5s ease-in-out, color 0.5s ease-in-out
+    color: $white-color
+    font-size: 15px
+    outline: none
+
 @mixin desktop
     @media (min-width: 1024px)
         @content
