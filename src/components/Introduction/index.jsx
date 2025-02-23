@@ -19,8 +19,14 @@ const Introduction = () => {
                 </div>
 
                 <div className="social-midia">
+                <a href="https://www.linkedin.com/in/walacemarques/" target="_blank">
                     <FaLinkedin className="icon"/>
+                </a>
+
+                <a href="https://github.com/zzmarques" target="_blank">
                     <FaGithub className="icon"/>
+                </a>
+                    
                 </div>
 
             </div>
