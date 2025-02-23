@@ -7,7 +7,7 @@ import "../../sass/components/_Skills.sass";
 
 const Skills = () => {
     return (
-        <section className="container-skills">
+        <section className="container-skills" id="skills">
             <Title>
                 <div className="wave-container">
                     <span>H</span>

@@ -7,7 +7,7 @@ import "../../sass/components/_Contact.sass";
 const Contact = () => {
 
     return (
-        <section className="container-contact">
+        <section className="container-contact" id="contact">
             <Title>
                 <div className="wave-container">
                     <span>C</span>

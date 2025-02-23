@@ -7,7 +7,7 @@ import "../../sass/components/_AboutMe.sass";
 const AboutMe = () => {
 
     return (
-        <section className="container-about">
+        <section className="container-about" id="about">
             <Title>
                 <div className="wave-container">
                     <span>S</span>

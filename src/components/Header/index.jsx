@@ -1,6 +1,7 @@
 import "../../sass/components/_Header.sass";
 import  img from "../../../public/assets/imgs/logo.png";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import { Link } from "react-scroll";
 
 const Header = () => {
     return (
@@ -16,11 +17,23 @@ const Header = () => {
 
                 <div className="container-ul">
                     <ul className="navbar__ul">
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <Link to="/" smooth={true} duration={500}>
+                            <li>Início</li>
+                        </Link>
+
+                        <Link to="about" smooth={true} duration={500}>
+                            <li>Sobre</li>
+                        </Link>
+
+                        <Link to="skills" smooth={true} duration={500}>
+                            <li>Habilidades</li>
+                        </Link>
+                        <Link to="project" smooth={true} duration={500}>
+                            <li>Projetos</li>
+                        </Link>
+                        <Link to="contact" smooth={true} duration={500}>
+                            <li>Contato</li>
+                        </Link>
                     </ul>
                 </div>
             </nav>
