@@ -1,7 +1,18 @@
+import { useParams } from 'react-router-dom';
 import img from '../../../public/assets/imgs/imagem-branca.png';
 import '../../sass/components/_DetailProject.sass';
 import BtnBack from '../BtnBack';
+import data from "../../json/db.json";
+
+
+
 const DetailProject = () => {
+
+    const { id } = useParams();
+    const card = data.find(item => item.name === id)
+    console.log(card)
+
+
     return (
         <section className='container-detail-project'>
             
@@ -10,26 +21,29 @@ const DetailProject = () => {
                 <img src={img} alt="" srcset="" />
             </div>
 
-            <div className='container-detail'>
+            {
+                card && (
+                    <div className='container-detail'>
+                    
+                    <div className='container-text'>
+                        <div className='container-cabecalho'>
+                        <h1>{ card.name }</h1>
+                        <BtnBack/>
+                        </div>
+                        <div className='container-p'>
+                            <p>{ card.description }</p>
+                        </div>
+                    </div>
+
+                    <div className='container-buttons'>
+                        <a href={card.liveDemo}><button>Demo do projeto</button></a>
+                        <a href={card.repository}><button>Repositório</button></a>
+                    </div>
+
+                </div>
+                )
                 
-                <div className='container-text'>
-                    <div className='container-cabecalho'>
-                    <h1>Nome Projeto</h1>
-                    <BtnBack/>
-                    </div>
-                    <div className='container-p'>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.
-                        </p>
-                    </div>
-                </div>
-
-                <div className='container-buttons'>
-                    <a href="#"><button>Demo do projeto</button></a>
-                    <a href="#"><button>Repositório</button></a>
-                </div>
-
-            </div>
+            }
         </section>
     );
 }

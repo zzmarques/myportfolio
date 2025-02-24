@@ -1,7 +1,7 @@
 import Title from "../Title";
 import CardProject from "../CardProject";
 import "../../sass/components/_Projects.sass";
-import data from "../../json/db.json"
+import data from "../../json/db.json";
 import { Link } from "react-router-dom";
 
 
