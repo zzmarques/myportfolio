@@ -4,7 +4,7 @@ import img from "../../../public/assets/imgs/imagem-branca.png"
 import "../../sass/components/_CardProject.sass";
 
 
-const CardProject = () => {
+const CardProject = ({ name, technologies }) => {
     return (
         <div className="cards">
         
@@ -14,7 +14,7 @@ const CardProject = () => {
 
             <div className="cabecalho">
                 <div className="title">
-                    <span>Teste</span>
+                    <span>{name}</span>
                 </div>
                 <div className="tecs">
                     <SiReact className="icons"/>

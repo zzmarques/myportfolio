@@ -1,6 +1,8 @@
 import Title from "../Title";
 import CardProject from "../CardProject";
 import "../../sass/components/_Projects.sass";
+import data from "../../json/db.json"
+import { Link } from "react-router-dom";
 
 
 const Projects = () => {
@@ -18,20 +20,27 @@ const Projects = () => {
                     <span>s</span>
                 </div>
             </Title>
-            <div className="container-cards-projects">
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-                <CardProject/>
-            </div>
+
+            
+
+                {
+                    data.length > 0 ? (
+                        <div className="container-cards-projects">
+                            {
+                                data.map((item, i) => (
+                                    <Link to={`/project/${item.name}`} key={i}>
+                                        <CardProject
+                                            name={item.name}
+                                            technologies={item.technologies}
+                                        />
+                                    </Link>
+                                ))
+                            }
+                        </div>
+                    ) : (
+                        <div>carregando...</div>
+                    )
+                } 
         </section>
     )
 }
