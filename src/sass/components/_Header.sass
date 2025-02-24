@@ -25,36 +25,35 @@
 
             @include desktop
                 width: 55px
-    
-    .navbar__btn-menu
-        cursor: pointer
-        @include center
-        position: absolute
-        top: 0
-        right: 0
-        z-index: 444
-        width: 80px
-        height: 90px
-        
 
-        @include desktop
-            display: none
-
-        &:hover
-            .menu-icon
-                color: $color-1
-
-        .menu-icon
-            font-size: 2.2rem
-            color: $white-color
-            transition: color .5s ease-in-out
-
-    .navbar 
+    .navbar
 
         @include desktop
             position: relative
             width: 600px
             height: 90px
+
+        .navbar__btn-menu
+            cursor: pointer
+            @include center
+            position: absolute
+            top: 0
+            right: 0
+            z-index: 444
+            width: 80px
+            height: 90px
+
+            @include desktop
+                display: none
+
+            &:hover
+                .menu-icon
+                    color: $color-1
+
+            .menu-icon
+                font-size: 2.2rem
+                color: $white-color
+                transition: color .5s ease-in-out
 
         .container-ul
             display: none
@@ -132,9 +131,13 @@
                     &:hover::before
                         display: block
                         opacity: 1
-    
+
+    .active
+
+        .container-ul
+            display: block !important
+
         &::before
-            display: none
             content: ''
             background: rgba(255, 255, 255, 0)
             backdrop-filter: blur(3px)
