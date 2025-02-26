@@ -23,7 +23,7 @@ const Header = () => {
     }
 
     return (
-        <header className="header" ref={headerRef}>
+        <header className="header">
             <div className="container-logo">
                 <img src={img} alt="logo" />
             </div>
