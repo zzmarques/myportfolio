@@ -1,12 +1,40 @@
-import "../../sass/components/_Header.sass";
-import  img from "../../../public/assets/imgs/logo.png";
-import { IoMdMenu, IoMdClose } from "react-icons/io";
+import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-scroll";
-import { useEffect, useState } from "react";
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { IoMdMenu, IoMdClose } from "react-icons/io";
+import img from "../../../public/assets/imgs/logo.png";
+import "../../sass/components/_Header.sass";
+
+
 
 const Header = () => {
 
-    const [ toggle, setToggle ] = useState(false);
+    const headerRef = useRef(null);
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        const showAnim = gsap.from(headerRef.current, {
+            yPercent: -100,
+            paused: true,
+            duration: 0.2,
+        }).progress(1);
+
+        ScrollTrigger.create({
+            start: 'top top',
+            end: 'max',
+            onUpdate: (self) => {
+                self.direction === -1 ? showAnim.play() : showAnim.reverse();
+            },
+        });
+
+        return () => {
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+        };
+    }, []);
+
+    const [toggle, setToggle] = useState(false);
 
     const showMenu = () => {
         setToggle(!toggle);
@@ -21,19 +49,19 @@ const Header = () => {
     }
 
     return (
-        <header className="header">
+        <header className="header" ref={headerRef}>
             <div className="container-logo">
                 <img src={img} alt="logo" />
             </div>
 
             <nav className={`navbar ${toggle ? "active" : ""}`}>
-                <div 
+                <div
                     className="navbar__btn-menu"
                     onClick={showMenu}
-                
+
                 >
-                    {toggle ? <IoMdClose className="menu-icon"/>  : <IoMdMenu className="menu-icon"/> }
-                    
+                    {toggle ? <IoMdClose className="menu-icon" /> : <IoMdMenu className="menu-icon" />}
+
                 </div>
 
                 <div className="container-ul">
