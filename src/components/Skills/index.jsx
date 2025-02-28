@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <section className="container-skills" id="skills">
             <Title>
-                <div className="wave-container">
+                <div className="wave-container" data-aos="fade-right">
                     <span>H</span>
                     <span>a</span>
                     <span>b</span>
@@ -26,38 +26,38 @@ const Skills = () => {
             <div className="container-skills-content">
 
                 <div className="container-text-skills">
-                    <p>
+                    <p data-aos="fade-right" data-aos-delay="100">
                         Sou um desenvolvedor web com habilidades sólidas em <span>HTML5</span>, <span>CSS3</span>, <span>JavaScript</span>, <span>React</span>, <span>Sass</span> e <span>Bootstrap</span>. Tenho experiência em criar soluções web inovadoras que são otimizadas para uma variedade de dispositivos. Meu foco está sempre em manter-me atualizado com as últimas tendências e melhores práticas do setor para garantir que meus projetos sejam eficientes e de ponta. Além de aperfeiçoar minhas habilidades atuais, estou sempre em busca de novos conhecimentos em ferramentas e tecnologias emergentes para ampliar meu repertório. Estou comprometido com o aprendizado contínuo e acredito que diversificar minhas habilidades é essencial para me tornar um desenvolvedor cada vez mais completo e versátil.
                     </p>
                 </div>
 
-                <div className="container-cards-skills">
+                <div className="container-cards-skills" data-aos="fade-left" >
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="200">
                         <SiReact className="hab"/>
                     </div>
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="350">
                         <SiJavascript className="hab"/>
                     </div>
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="500">
                         <SiHtml5 className="hab"/>
                     </div>
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="650">
                         <SiCss3 className="hab"/>
                     </div>
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="800">
                         <FaSass className="hab"/>
                     </div>
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="950">
                         <SiBootstrap className="hab"/>
                     </div>
 
-                    <div className="cards-skills">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="1100">
                         <SiGit className="hab"/>
                     </div>
                 </div>
