@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <section className="container-projects" id="project">
             <Title>
-                <div className="wave-container">
+                <div className="wave-container" data-aos="fade-right">
                     <span>P</span>
                     <span>r</span>
                     <span>o</span>
@@ -25,7 +25,7 @@ const Projects = () => {
 
                 {
                     data.length > 0 ? (
-                        <div className="container-cards-projects">
+                        <div className="container-cards-projects" data-aos="fade-up" data-aos-delay="200">
                             {
                                 data.map((item, i) => (
                                     <Link to={`/project/${item.name}`} key={i}>
