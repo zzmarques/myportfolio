@@ -7,7 +7,7 @@ const useAOSObserver = () => {
         AOS.init({
           duration: 1000,
           once: true,
-          mirror: true,
+          mirror: false,
         });
     
         const elements = document.querySelectorAll("[data-aos]");

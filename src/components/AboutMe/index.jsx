@@ -31,7 +31,7 @@ const AboutMe = () => {
                         Meu compromisso com o aprendizado contínuo me motiva a buscar novos projetos e desafios que expandam minhas competências e explorem novas tecnologias. Cada projeto é uma oportunidade valiosa para fortalecer minhas habilidades. Acredito que dedicação e aprendizado constante são essenciais para alcançar meus objetivos como desenvolvedor fullstack. Estou sempre em busca de novas oportunidades para crescer profissionalmente e contribuir com soluções inovadoras no desenvolvimento de interfaces web.
                     </p>
                 </div>
-                <div className="container-img" data-aos="fade-left" data-aos-delay="400">
+                <div className="container-img" data-aos="fade-up" data-aos-delay="400">
                     <img src={img} alt="about img" />
                 </div>
             </div>

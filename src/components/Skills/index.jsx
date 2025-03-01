@@ -31,7 +31,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="container-cards-skills" data-aos="fade-left" >
+                <div className="container-cards-skills" data-aos="fade-up" >
 
                     <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="200">
                         <SiReact className="hab"/>
