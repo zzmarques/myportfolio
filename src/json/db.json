@@ -6,7 +6,7 @@
         "technologies": ["React", "JavaScript" ,"CSS"],
         "repository": "https://github.com/zzmarques/tourism-space",
         "liveDemo": "https://space-tourism-walacedev.netlify.app",
-        "imagem": "./imgs/space.png"
+        "imagem": "/imgs/space.png"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "technologies": ["React", "JavaScript" ,"CSS"],
         "repository": "https://github.com/zzmarques/countries",
         "liveDemo": "https://countries-walacedev.netlify.app/",
-        "imagem": "./imgs/countries.png"
+        "imagem": "/imgs/countries.png"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/advice",
         "liveDemo": "https://advice-walacedev.netlify.app",
-        "imagem": "./imgs/advice.png"
+        "imagem": "/imgs/advice.png"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/jokenpo",
         "liveDemo": "https://jokenpo-walacemarqdev.netlify.app",
-        "imagem": "./imgs/jokenpo.png"
+        "imagem": "/imgs/jokenpo.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "technologies": ["JavaScript", "SASS", "HTML" ,"CSS"],
         "repository": "https://github.com/zzmarques/intro-section",
         "liveDemo": "https://intro-section-walacedev.netlify.app/",
-        "imagem": "./imgs/intro-section.png"
+        "imagem": "/imgs/intro-section.png"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "technologies": ["JavaScript", "SASS", "HTML" ,"CSS" ],
         "repository": "https://github.com/zzmarques/room",
         "liveDemo": "https://room-walacedev.netlify.app",
-        "imagem": "./imgs/room.png"
+        "imagem": "/imgs/room.png"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/projeto-sneakers",
         "liveDemo": "https://sneakers-walacedev.netlify.app",
-        "imagem": "./imgs/sneakers.png"
+        "imagem": "/imgs/sneakers.png"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/bank-landing-page",
         "liveDemo": "https://bank-walacedev.netlify.app",
-        "imagem": "./imgs/bank.png"
+        "imagem": "/imgs/bank.png"
     },
     {
         "id": 9,
@@ -78,6 +78,6 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/calculadora",
         "liveDemo": "https://calculadora-walacedev.netlify.app",
-        "imagem": "./imgs/calc.png"
+        "imagem": "/imgs/calc.png"
     }
 ]
