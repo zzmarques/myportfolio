@@ -1,10 +1,13 @@
-import { SiReact, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiGit } from "react-icons/si";
+import { SiReact, SiJavascript, SiHtml5, SiCss3, SiBootstrap } from "react-icons/si";
 import { FaSass } from "react-icons/fa6";
-import img from "../../../public/assets/imgs/imagem-branca.png"
 import "../../sass/components/_CardProject.sass";
 
 
-const CardProject = ({ name, technologies }) => {
+const CardProject = ({ name, technologies, img }) => {
+
+
+    
+
     return (
         <div className="cards">
         
@@ -16,12 +19,20 @@ const CardProject = ({ name, technologies }) => {
                 <div className="title">
                     <span>{name}</span>
                 </div>
-                <div className="tecs">
-                    <SiReact className="icons"/>
-                    <SiJavascript className="icons"/>
-                    <FaSass className="icons"/>
-                    <SiBootstrap className="icons"/>
-                </div>
+                {
+                    <div className="tecs">
+                        {technologies.map((tec, i) => (
+                                tec === "React" ? <SiReact/> 
+                                : tec === "JavaScript" ? < SiJavascript/>
+                                : tec === "SASS" ? <FaSass/>
+                                : tec === "HTML" ? <SiHtml5/>
+                                : tec === "CSS"  ? <SiCss3/>
+                                : ""
+                            ))
+                        }
+                    </div>
+                }
+                
             </div>
         
         </div>

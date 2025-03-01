@@ -27,11 +27,12 @@ const Projects = () => {
                     data.length > 0 ? (
                         <div className="container-cards-projects" data-aos="fade-up" data-aos-delay="200">
                             {
-                                data.map((item, i) => (
-                                    <Link to={`/project/${item.name}`} key={i}>
+                                data.map((project, i) => (
+                                    <Link to={`/project/${project.name}`} key={i}>
                                         <CardProject
-                                            name={item.name}
-                                            technologies={item.technologies}
+                                            name={project.name}
+                                            technologies={project.technologies}
+                                            img={project.imagem}
                                         />
                                     </Link>
                                 ))
