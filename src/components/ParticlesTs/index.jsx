@@ -13,9 +13,6 @@ const ParticlesTs = () => {
         });
     }, []);
 
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
 
     const options = useMemo(
         () => ({
@@ -63,7 +60,6 @@ const ParticlesTs = () => {
         return (
             <Particles
                 id="tsparticles"
-                particlesLoaded={particlesLoaded}
                 options={options}
             />
         );
