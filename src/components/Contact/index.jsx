@@ -24,7 +24,7 @@ const Contact = () => {
 
                 
                 <a href="mailto:walacemarqs@gmail.com" target="_blank">
-                    <div className="cards-midia-social" data-aos="fade-right">
+                    <div className="cards-midia-social email" data-aos="fade-right">
 
                         <div className="container-icon">
                             <MdOutlineEmail  className="icon"/>
@@ -35,7 +35,7 @@ const Contact = () => {
                 </a>
 
                 <a href="https://wa.me/5532998674766" target="_blank">
-                    <div className="cards-midia-social" data-aos="fade-right" data-aos-delay="150">
+                    <div className="cards-midia-social whatsapp" data-aos="fade-right" data-aos-delay="150">
 
                         <div className="container-icon">
                             <FaWhatsapp className="icon"/>
@@ -46,7 +46,7 @@ const Contact = () => {
                 </a>
 
                 <a href="https://www.linkedin.com/in/walacemarques/" target="_blank">
-                    <div className="cards-midia-social" data-aos="fade-right" data-aos-delay="200">
+                    <div className="cards-midia-social linkedin" data-aos="fade-right" data-aos-delay="200">
 
                         <div className="container-icon">
                             <FaLinkedin className="icon"/>
@@ -58,7 +58,7 @@ const Contact = () => {
 
                 <a href="https://github.com/zzmarques" target="_blank">
 
-                    <div className="cards-midia-social" data-aos="fade-right" data-aos-delay="250">
+                    <div className="cards-midia-social github" data-aos="fade-right" data-aos-delay="250">
 
                         <div className="container-icon">
                             <FaGithub className="icon"/>

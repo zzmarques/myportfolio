@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { handleResponsiveScroll } from "../utils/responsiveScroll";
 
 const useAOSObserver = () => {
     useEffect(() => {
@@ -9,6 +10,8 @@ const useAOSObserver = () => {
           once: true,
           mirror: false,
         });
+
+        handleResponsiveScroll();
     
         const elements = document.querySelectorAll("[data-aos]");
     
