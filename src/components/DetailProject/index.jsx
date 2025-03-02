@@ -10,7 +10,7 @@ const DetailProject = ({ name, description, liveDemo, repository, img }) => {
         <section className='container-detail-project'>
 
             <div className='container-img'>
-                <img src={img} alt={name}/>
+                <img src={img} alt={name} loading="lazy"/>
             </div>
 
             <div className='container-detail'>

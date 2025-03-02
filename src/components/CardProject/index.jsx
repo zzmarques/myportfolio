@@ -12,7 +12,7 @@ const CardProject = ({ name, technologies, img }) => {
         <div className="cards">
         
             <div className="container-img">
-                <img src={img} alt="Foto Projeto"/>
+                <img src={img} alt={name}/>
             </div>
 
             <div className="cabecalho">

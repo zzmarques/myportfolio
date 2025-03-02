@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Space Tourism",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
+        "description": "",
         "technologies": ["React", "JavaScript" ,"CSS"],
         "repository": "https://github.com/zzmarques/tourism-space",
         "liveDemo": "https://space-tourism-walacedev.netlify.app",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Countries",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
+        "description": "",
         "technologies": ["React", "JavaScript" ,"CSS"],
         "repository": "https://github.com/zzmarques/countries",
         "liveDemo": "https://countries-walacedev.netlify.app/",
@@ -19,62 +19,89 @@
     },
     {
         "id": 3,
+        "name": "Product List",
+        "description": "",
+        "technologies": ["React", "JavaScript" ,"SASS"],
+        "repository": "https://github.com/zzmarques/product-list",
+        "liveDemo": "https://product-list-walacedev.netlify.app",
+        "imagem": "/imgs/product-list.png"
+    },
+    {
+        "id": 4,
         "name": "Advice",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
+        "description": "",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/advice",
         "liveDemo": "https://advice-walacedev.netlify.app",
         "imagem": "/imgs/advice.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Jokenpô",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
+        "description": "",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/jokenpo",
         "liveDemo": "https://jokenpo-walacemarqdev.netlify.app",
         "imagem": "/imgs/jokenpo.png"
     },
     {
-        "id": 5,
-        "name": "Intro Section",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
-        "technologies": ["JavaScript", "SASS", "HTML" ,"CSS"],
-        "repository": "https://github.com/zzmarques/intro-section",
-        "liveDemo": "https://intro-section-walacedev.netlify.app/",
-        "imagem": "/imgs/intro-section.png"
-    },
-    {
         "id": 6,
-        "name": "Room",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
-        "technologies": ["JavaScript", "SASS", "HTML" ,"CSS" ],
-        "repository": "https://github.com/zzmarques/room",
-        "liveDemo": "https://room-walacedev.netlify.app",
-        "imagem": "/imgs/room.png"
-    },
-    {
-        "id": 7,
         "name": "Sneakers",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
+        "description": "",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/projeto-sneakers",
         "liveDemo": "https://sneakers-walacedev.netlify.app",
         "imagem": "/imgs/sneakers.png"
     },
     {
+        "id": 7,
+        "name": "Intro Section",
+        "description": "",
+        "technologies": ["JavaScript", "SASS", "HTML"],
+        "repository": "https://github.com/zzmarques/intro-section",
+        "liveDemo": "https://intro-section-walacedev.netlify.app/",
+        "imagem": "/imgs/intro-section.png"
+    },
+    {
         "id": 8,
-        "name": "Bank",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
-        "technologies": ["JavaScript", "HTML", "CSS"],
-        "repository": "https://github.com/zzmarques/bank-landing-page",
-        "liveDemo": "https://bank-walacedev.netlify.app",
-        "imagem": "/imgs/bank.png"
+        "name": "Room",
+        "description": "",
+        "technologies": ["JavaScript", "SASS", "HTML" ],
+        "repository": "https://github.com/zzmarques/room",
+        "liveDemo": "https://room-walacedev.netlify.app",
+        "imagem": "/imgs/room.png"
     },
     {
         "id": 9,
+        "name": "Bookmark",
+        "description": "",
+        "technologies": ["JavaScript", "HTML", "SASS"],
+        "repository": "https://github.com/zzmarques/bookmark-landing",
+        "liveDemo": "https://bookmark-walacedev.netlify.app/",
+        "imagem": "/imgs/bookmark.png"
+    },
+    {
+        "id": 10,
+        "name": "Crowdfunding",
+        "description": "",
+        "technologies": ["JavaScript", "HTML", "SASS"],
+        "repository": "https://github.com/zzmarques/crowdfunding",
+        "liveDemo": "https://crowdfunding-walacedev.netlify.app",
+        "imagem": "/imgs/crowdfunding.png"
+    },
+    {
+        "id": 11,
+        "name": "Dashboard",
+        "description": "",
+        "technologies": ["JavaScript", "HTML", "SASS"],
+        "repository": "https://github.com/zzmarques/social-media-dashboard",
+        "liveDemo": "https://dashboard-walacedev.netlify.app/",
+        "imagem": "/imgs/dashboard.png"
+    },
+    {
+        "id": 12,
         "name": "Calculadora",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel iste totam, molestias dolores quam eum? Ipsam reiciendis esse molestias non odio nemo vel, aliquam dicta pariatur? Quibusdam placeat debitis reprehenderit.",
+        "description": "",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/calculadora",
         "liveDemo": "https://calculadora-walacedev.netlify.app",

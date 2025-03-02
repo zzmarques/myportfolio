@@ -23,7 +23,7 @@ const Header = () => {
     }
 
     return (
-        <header className="header">
+        <header className="header" data-aos="fade-down">
             <div className="container-logo">
                 <img src={img} alt="logo" />
             </div>
