@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Space Tourism",
-        "description": "",
+        "description": "O Tourism Space é um site interativo desenvolvido em React.js, utilizando diversas tecnologias e ferramentas como Vite, CSS3, React Router e Figma. Através de uma interface moderna e responsiva, o site adapta-se perfeitamente a diferentes dispositivos. Entre os principais recursos, destacam-se a interface interativa que proporciona uma experiência envolvente e educativa sobre a exploração espacial, o design responsivo que se adapta a desktops, tablets e smartphones, a disponibilidade de informações detalhadas sobre planetas, tripulações e lançamentos de naves espaciais, o gerenciamento dinâmico de dados utilizando um arquivo JSON para organizar e atualizar informações, e a navegação suave que garante uma experiência de usuário fluida e intuitiva.",
         "technologies": ["React", "JavaScript" ,"CSS"],
         "repository": "https://github.com/zzmarques/tourism-space",
         "liveDemo": "https://space-tourism-walacedev.netlify.app",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Countries",
-        "description": "",
+        "description": "A aplicação Countries é uma página de listagem de países, desenvolvida em React.js.Ela consome uma API REST que contém dados de todos os países, permitindo que o usuário pesquise países pelo nome, filtre por continentes e alterne entre temas claro e escuro. Além disso, ao clicar em um país, uma nova página exibe informações detalhadas. O site é totalmente responsivo, garantindo uma boa experiência tanto em desktop quanto em dispositivos móveis.",
         "technologies": ["React", "JavaScript" ,"CSS"],
         "repository": "https://github.com/zzmarques/countries",
         "liveDemo": "https://countries-walacedev.netlify.app/",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Product List",
-        "description": "",
+        "description": "O Product List é uma página de listagem de produtos desenvolvida com foco em usabilidade, responsividade e funcionalidade. Este projeto foi construído utilizando React.jscom Vite e Sass para estilização, adotando o conceito de Mobile First para garantir um design responsivo em todos os dispositivos. Entre as funcionalidades da página, destacam-se: a possibilidade de adicionar produtos ao carrinho de forma prática, o gerenciamento da quantidade de cada produto diretamente no carrinho, a opção de remover produtos indesejados e a finalização do pedido, permitindo que o usuário confirme e conclua a compra após a seleção dos itens. Esse projeto exemplifica como tecnologias modernas e práticas de desenvolvimento voltadas para a experiência do usuário podem se unir para criar uma aplicação eficiente e acessível. Se precisar de mais detalhes ou quiser compartilhar mais sobre o seu projeto, estou aqui para ajudar!",
         "technologies": ["React", "JavaScript" ,"SASS"],
         "repository": "https://github.com/zzmarques/product-list",
         "liveDemo": "https://product-list-walacedev.netlify.app",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Advice",
-        "description": "",
+        "description": "A aplicação ADVICE é uma web aplicação que utiliza a API Advice Slip para gerar conselhos aleatórios. Este web app, com um design mobile-first, é responsivo para todos os dispositivos. Ele consome um REST API para buscar conselhos. O design é simples e intuitivo, facilitando o uso. Ao clicar no botão de dado, o app consome a API Advice Slip e gera um conselho com apenas um clique. Utilizando tecnologias como HTML5 para a estrutura do conteúdo, CSS3 para estilização e design responsivo, e JavaScript para funcionalidades dinâmicas, a aplicação destaca-se por seu botão de dado, que gera um novo conselho com um único clique. O layout é otimizado primeiramente para dispositivos móveis, garantindo uma experiência de usuário agradável em smartphones e tablets, e o web app é totalmente responsivo, adaptando-se a diferentes tamanhos de tela, incluindo desktops e laptops. A interface simples e intuitiva torna a navegação fácil e agradável para os usuários.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/advice",
         "liveDemo": "https://advice-walacedev.netlify.app",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Jokenpô",
-        "description": "",
+        "description": "A aplicação Jokenpô é um game para web onde o jogador enfrenta a 'Home' em partidas de pedra, papel e tesoura. O jogador pode escolher entre as três opções clássicas, enquanto a 'Home' realiza sua jogada com uma função que seleciona aleatoriamente uma das opções. O jogo inclui um contador de pontos dinâmico, onde ao vencer, o jogador ganha +1 ponto, e ao perder, perde -1. Para maior interatividade, foram implementados dois botões adicionais: um para reiniciar a partida e outro para exibir as regras do jogo. Utilizando tecnologias como HTML5, CSS3 e JavaScript, o jogo destaca-se por ser desenvolvido com o conceito Mobile-First, garantindo uma experiência fluida e acessível em telas pequenas. O botão de regras exibe as instruções do jogo de forma clara e objetiva, enquanto o placar dinâmico atualiza automaticamente os pontos do jogador. O botão de reiniciar partida permite recomeçar o jogo a qualquer momento, e a jogada da 'Home' é feita de forma aleatória, escolhendo entre pedra, papel e tesoura. O jogador tem a liberdade de escolher qualquer uma das três opções clássicas: pedra, papel ou tesoura.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/jokenpo",
         "liveDemo": "https://jokenpo-walacemarqdev.netlify.app",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Sneakers",
-        "description": "",
+        "description": "A página Sneakers é uma aplicação totalmente funcional desenvolvida utilizando HTML5, CSS3 e JavaScript. Ela é responsiva e se adapta perfeitamente tanto a dispositivos móveis quanto a desktops. Na página, os usuários podem adicionar produtos ao carrinho de compras e escolher a quantidade desejada para cada item. Além disso, eles têm a opção de remover produtos do carrinho, proporcionando uma experiência de compra interativa e intuitiva.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/projeto-sneakers",
         "liveDemo": "https://sneakers-walacedev.netlify.app",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "Intro Section",
-        "description": "",
+        "description": "A página Intro Section é uma aplicação desenvolvida com foco no desenvolvimento do menu dropdown, utilizando HTML5, JavaScript e Sass. Seguindo o conceito mobile first, a página prioriza a usabilidade em smartphones e tablets, mas também se adapta perfeitamente a telas maiores. Para tornar a navegação dinâmica, foi utilizado JavaScript no controle do menu, permitindo que ele apareça e desapareça conforme a necessidade.",
         "technologies": ["JavaScript", "SASS", "HTML"],
         "repository": "https://github.com/zzmarques/intro-section",
         "liveDemo": "https://intro-section-walacedev.netlify.app/",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "Room",
-        "description": "",
+        "description": "A homepage Room é uma aplicação moderna, criada com o conceito mobile-first. Utilizando tecnologias como HTML5, JavaScript e Sass, a página oferece um design fluido e responsivo. O conteúdo é alternado de forma dinâmica por meio de botões interativos de avanço e retorno, proporcionando uma experiência de navegação simples e eficiente. A estética moderna e intuitiva garante uma navegação atraente, enquanto o layout responsivo adapta-se perfeitamente a diferentes tamanhos de tela. A alternância de conteúdo sem recarregar a página proporciona uma experiência interativa contínua, garantindo fluidez em qualquer tela.",
         "technologies": ["JavaScript", "SASS", "HTML" ],
         "repository": "https://github.com/zzmarques/room",
         "liveDemo": "https://room-walacedev.netlify.app",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "name": "Bookmark",
-        "description": "",
+        "description": "A aplicação Bookmark é uma landing page moderna e responsiva, seguindo o conceito Mobile First. Utilizando tecnologias como HTML5, JavaScript e Sass, a página oferece um layout flexível que garante uma experiência consistente em qualquer dispositivo. Entre as principais funcionalidades, destacam-se a verificação do campo de e-mail, que realiza a validação necessária, e a exibição dinâmica de conteúdo nas seções Features e Frequently Asked Questions, permitindo uma interação fluida e intuitiva ao clicar nos botões correspondentes. O design responsivo adapta-se perfeitamente a todos os dispositivos, proporcionando uma navegação agradável e eficiente.",
         "technologies": ["JavaScript", "HTML", "SASS"],
         "repository": "https://github.com/zzmarques/bookmark-landing",
         "liveDemo": "https://bookmark-walacedev.netlify.app/",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "Crowdfunding",
-        "description": "",
+        "description": "A página Crowdfunding é uma aplicação dinâmica e responsiva, otimizada para todos os dispositivos. Projetada com a abordagem mobile first, garante uma navegação fluida em smartphones, tablets e desktops. Oferece uma experiência personalizada, permitindo que o usuário escolha a quantia de dinheiro a ser doada, além de incluir um menu hambúrguer para facilitar a navegação em dispositivos móveis. Utilizando tecnologias como HTML5, JavaScript e Sass, a aplicação destaca-se pela seleção de opções personalizadas, menu hambúrguer para melhor navegação, funcionalidade completa em todos os dispositivos e layout responsivo que se ajusta automaticamente ao tamanho da tela.",
         "technologies": ["JavaScript", "HTML", "SASS"],
         "repository": "https://github.com/zzmarques/crowdfunding",
         "liveDemo": "https://crowdfunding-walacedev.netlify.app",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "name": "Dashboard",
-        "description": "",
+        "description": "A aplicação Social Media Dashboard é uma aplicação web moderna e responsiva, desenvolvida com o conceito mobile-first. Utilizando tecnologias como HTML5, JavaScript e Sass, a página oferece um design que se adapta perfeitamente a qualquer dispositivo. Entre os principais recursos, destacam-se o conceito mobile first, que prioriza dispositivos móveis e garante uma experiência fluida e intuitiva, o design responsivo com layout flexível, o dark mode, que permite alternar entre modos claro e escuro para uma interface personalizável e confortável, e a animação de scroll, que adiciona uma animação suave ao rolar a página, criando uma experiência visual envolvente e fluida para os usuários.",
         "technologies": ["JavaScript", "HTML", "SASS"],
         "repository": "https://github.com/zzmarques/social-media-dashboard",
         "liveDemo": "https://dashboard-walacedev.netlify.app/",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "name": "Calculadora",
-        "description": "",
+        "description": "Este projeto é uma calculadora desenvolvida com HTML, CSS e JavaScript puro. Capaz de realizar operações básicas como adição, subtração, multiplicação e divisão, sem usar a função Math nativa do JavaScript. Ela permite alternar entre operações sem apagar números inseridos e tem uma restrição para inserção de pontos decimais, garantindo precisão nos cálculos. A interface é simples e usável, totalmente responsiva para dispositivos móveis e desktops. Além disso, permite converter números entre positivo e negativo com um clique, oferecendo maior flexibilidade nos cálculos.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "repository": "https://github.com/zzmarques/calculadora",
         "liveDemo": "https://calculadora-walacedev.netlify.app",
