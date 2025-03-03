@@ -9,24 +9,42 @@ import "../../sass/components/_Header.sass";
 const Header = () => {
 
     const [toggle, setToggle] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
     const showMenu = () => {
         setToggle(!toggle);
     };
 
-    useEffect(() => {
-        document.body.style.overflow = toggle ? "hidden" : "auto";
-    }, [toggle]);
-
     const closeMenu = () => {
         setToggle(false)
     }
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () =>
+            window.removeEventListener('scroll', handleScroll)
+    }, []);
+
+    useEffect(() => {
+        document.body.style.overflow = toggle ? "hidden" : "auto";
+    }, [toggle]);
+
     return (
-        <header className="header" data-aos="fade-down">
-            <div className="container-logo">
-                <img src={img} alt="logo" />
-            </div>
+        <header className={scrolled ? "header scrolled" : "header"}>
+            <Link to="introduction">
+                <div className="container-logo">
+                    <span>WM</span>
+                </div>
+            </Link>
+            
 
             <nav className={`navbar ${toggle ? "active" : ""}`}>
                 <div
@@ -40,7 +58,7 @@ const Header = () => {
 
                 <div className="container-ul">
                     <ul className="navbar__ul">
-                        <Link to="/" smooth={true} duration={100} onClick={closeMenu}>
+                        <Link to="introduction" smooth={true} duration={100} onClick={closeMenu}>
                             <li>Início</li>
                         </Link>
                         <Link to="about" smooth={true} duration={100} onClick={closeMenu}>

@@ -5,10 +5,15 @@
     display: flex
     justify-content: space-between
     align-items: center
-    position: relative
     height: 90px
+    transition: all 0.3s ease !important
 
     @include desktop
+        position: fixed
+        top: 0
+        left: 0
+        z-index: 999
+        width: 100%
         padding-inline: 80px
 
     .container-logo
@@ -19,12 +24,12 @@
 
         @include desktop
             width: 50px
+        
+        span 
+            font-size: 1.7rem
+            font-weight: bold
+            color: $white-color
 
-        img
-            width: 70px
-
-            @include desktop
-                width: 55px
 
     .navbar
 
@@ -147,3 +152,11 @@
             z-index: 111
             width: 100%
             height: 100vh
+
+.scrolled
+    @include desktop
+        height: 110px
+        background: rgba(255, 255, 255, 0)
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+        backdrop-filter: blur(80px)
+        -webkit-backdrop-filter: blur(80px)

@@ -6,7 +6,7 @@ import "../../sass/components/_Introduction.sass";
 const Introduction = () => {
 
     return (
-        <section className="container-introduction">
+        <section className="container-introduction" id="introduction">
 
             <div className="container-texts">
 
