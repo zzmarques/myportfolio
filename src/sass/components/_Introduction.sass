@@ -1,8 +1,5 @@
-@import '../mixins.sass'
-@import '../variables.sass'
-
-
-
+@use '../variables'
+@use  '../mixins'
     
 .container-introduction
     display: flex
@@ -11,7 +8,7 @@
     width: 327px
     padding-block: 20px
 
-    @include desktop
+    @include mixins.desktop
         width: 100%
         height: calc( 100vh - 90px )
         flex-direction: row
@@ -25,7 +22,7 @@
         width: 100%
         height: 222px
 
-        @include desktop
+        @include mixins.desktop
             width: 600px
             height: 500px
 
@@ -37,14 +34,14 @@
             height: 100%
             padding-bottom: 10px
 
-            @include desktop
+            @include mixins.desktop
                 justify-content: center
                 padding: 0
 
             .title 
                 font-size: 25px
                 font-weight: bold
-                color: $white-color
+                color: variables.$white-color
 
                 .emoji
                     animation-name: wave
@@ -53,43 +50,43 @@
                     transform-origin: 70% 70%
                     display: inline-block
 
-                @include desktop
+                @include mixins.desktop
                     font-size: 2.2rem
 
                 .destaque
-                    color: $color-1
+                    color: variables.$color-1
 
             .subtitle
                 font-size: 18px
                 font-weight: 400
-                color: $white-color
+                color: variables.$white-color
 
-                @include desktop
+                @include mixins.desktop
                     font-size: 19px
 
         .social-midia
             display: none
 
-            @include desktop
+            @include mixins.desktop
                 display: flex
                 height: 100px
                 gap: 20px
 
             .icon
                 font-size: 2.3rem
-                color: $color-1
+                color: variables.$color-1
                 cursor: pointer
                 transition: transform 0.5s ease-in-out, color 0.5s ease-in-out
 
                 &:hover
                     transform: scale(1.3)
-                    color: $white-color
+                    color: variables.$white-color
 
 
     .container-img 
         height: 438px
 
-        @include desktop
+        @include mixins.desktop
             display: flex
             align-items: center
             justify-content: flex-end
@@ -100,7 +97,7 @@
             width: 100%
             padding-top: 20px
 
-            @include desktop
+            @include mixins.desktop
                 width: 470px
                 height: 470px
                 padding: 0

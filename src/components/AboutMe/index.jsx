@@ -1,7 +1,6 @@
-import img from "../../../public/assets/imgs/about.png"
+import img from "../../assets/imgs/about.png"
 import Title from "../Title";
 import "../../sass/components/_AboutMe.sass";
-
 
 
 const AboutMe = () => {

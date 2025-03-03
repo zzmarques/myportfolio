@@ -1,5 +1,5 @@
-@import '../mixins.sass'
-@import '../variables.sass'
+@use '../variables'
+@use  '../mixins'
     
 .header
     display: flex
@@ -8,7 +8,7 @@
     height: 90px
     transition: all 0.3s ease !important
 
-    @include desktop
+    @include mixins.desktop
         position: fixed
         top: 0
         left: 0
@@ -17,30 +17,30 @@
         padding-inline: 80px
 
     .container-logo
-        @include center
+        @include mixins.center
         width: 90px
         height: 90px
         cursor: pointer   
 
-        @include desktop
+        @include mixins.desktop
             width: 50px
         
         span 
             font-size: 1.7rem
             font-weight: bold
-            color: $white-color
+            color: variables.$white-color
 
 
     .navbar
 
-        @include desktop
+        @include mixins.desktop
             position: relative
             width: 600px
             height: 90px
 
         .navbar__btn-menu
             cursor: pointer
-            @include center
+            @include mixins.center
             position: absolute
             top: 0
             right: 0
@@ -48,16 +48,16 @@
             width: 80px
             height: 90px
 
-            @include desktop
+            @include mixins.desktop
                 display: none
 
             &:hover
                 .menu-icon
-                    color: $color-1
+                    color: variables.$color-1
 
             .menu-icon
                 font-size: 2.2rem
-                color: $white-color
+                color: variables.$white-color
                 transition: color .5s ease-in-out
 
         .container-ul
@@ -74,7 +74,7 @@
             -webkit-backdrop-filter: blur(20px)
             
 
-            @include desktop
+            @include mixins.desktop
                 display: flex
                 width: 100%
                 height: 100%
@@ -90,7 +90,7 @@
             height: 260px
             margin-top: 130px            
 
-            @include desktop
+            @include mixins.desktop
                 flex-direction: row
                 justify-content: flex-end
                 align-items: center
@@ -107,7 +107,7 @@
                 height: 60px
                 padding-left: 40px
                 font-size: 1.3rem
-                color: $white-color
+                color: variables.$white-color
                 transition: color 0.5s ease-in-out
 
                 &::before
@@ -117,7 +117,7 @@
                     bottom: 0
                     left: 0
                     width: 0
-                    background: $color-1
+                    background: variables.$color-1
                     transition: width .5s ease-in-out
 
                 &:hover::before
@@ -125,10 +125,10 @@
                     height: 2px
                 
                 &:hover
-                    color: $color-1
+                    color: variables.$color-1
                     
 
-                @include desktop
+                @include mixins.desktop
                     padding: 0
                     height: 65px
                     font-size: 1.2rem
@@ -154,7 +154,7 @@
             height: 100vh
 
 .scrolled
-    @include desktop
+    @include mixins.desktop
         height: 110px
         background: rgba(255, 255, 255, 0)
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import img from "../../../public/assets/imgs/logo.png";
 import "../../sass/components/_Header.sass";
 
 

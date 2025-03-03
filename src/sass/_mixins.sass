@@ -1,8 +1,10 @@
+@use './variables'
+    
 @mixin center
     display: flex
     justify-content: center
     align-items: center
-
+    
 @mixin containerPattern
     display: flex
     flex-direction: column
@@ -12,10 +14,10 @@
 @mixin btns()
     background: transparent
     border-radius: 15px
-    border: 1px solid $border-color
-    box-shadow: $box-shadow-color 4px 5px 4px 3px
+    border: 1px solid variables.$border-color1
+    box-shadow: variables.$box-shadow-color1 4px 5px 4px 3px
     transition: transform 0.5s ease-in-out, border-color 0.5s ease-in-out, color 0.5s ease-in-out
-    color: $white-color
+    color: variables.$white-color
     font-size: 15px
     outline: none
 
