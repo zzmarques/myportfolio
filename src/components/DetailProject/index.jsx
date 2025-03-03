@@ -1,5 +1,5 @@
 import '../../sass/components/_DetailProject.sass';
-import BtnBack from '../BtnBack';
+import BtnBack from '../../components/btnBack';
 
 
 
