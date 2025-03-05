@@ -16,7 +16,7 @@ const Introduction = () => {
 
                     <span className="title" data-aos="fade-right"   data-aos-delay="250">Eu sou <span className="destaque">Walace Marques</span></span>
 
-                    <span className="subtitle" data-aos="fade-right"   data-aos-delay="400">Desenvolvedor Front-End</span>
+                    <span className="subtitle" data-aos="fade-right"   data-aos-delay="400">Desenvolvedor <span className="destaque">Front-End</span></span>
                     
                 </div>
 
