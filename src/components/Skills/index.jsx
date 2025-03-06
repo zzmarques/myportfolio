@@ -1,5 +1,6 @@
 import Title from "../Title";
-import { SiReact, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiGit } from "react-icons/si";
+import { SiReact, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiGit, SiTypescript } from "react-icons/si";
+
 import { FaSass } from "react-icons/fa6";
 import "../../sass/components/_Skills.sass";
 
@@ -27,7 +28,7 @@ const Skills = () => {
 
                 <div className="container-text-skills">
                     <p data-aos="fade-right" data-aos-delay="100">
-                        Sou um desenvolvedor web com habilidades sólidas em <span>HTML5</span>, <span>CSS3</span>, <span>JavaScript</span>, <span>React</span>, <span>Sass</span> e <span>Bootstrap</span>. Tenho experiência em criar soluções web inovadoras que são otimizadas para uma variedade de dispositivos. Meu foco está sempre em manter-me atualizado com as últimas tendências e melhores práticas do setor para garantir que meus projetos sejam eficientes e de ponta. Além de aperfeiçoar minhas habilidades atuais, estou sempre em busca de novos conhecimentos em ferramentas e tecnologias emergentes para ampliar meu repertório. Estou comprometido com o aprendizado contínuo e acredito que diversificar minhas habilidades é essencial para me tornar um desenvolvedor cada vez mais completo e versátil.
+                    Eu sou um desenvolvedor <span>front-end</span> com experiência em <span>React</span>, <span>TypeScript</span>, e <span>JavaScript</span>. Tenho uma sólida experiência na criação de interfaces de usuário dinâmicas e eficientes. Além disso, tenho conhecimento sólido em <span>HTML</span>, <span>CSS</span> e <span>Sass</span>, o que me permite garantir design e estilo avançados para as minhas aplicações. Utilizo <span>Bootstrap</span> para desenvolver layouts responsivos de forma rápida e eficaz. Para controle de versão e colaboração, confio em <span>Git</span> e <span>GitHub</span>, o que me ajuda a gerenciar projetos e trabalhar em equipe. Com essas habilidades, sou capaz de criar aplicações web modernas, funcionais e visualmente atraentes.
                     </p>
                 </div>
 
@@ -38,6 +39,10 @@ const Skills = () => {
                     </div>
 
                     <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="350">
+                        <SiTypescript className="hab"/>
+                    </div>
+
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="400">
                         <SiJavascript className="hab"/>
                     </div>
 
@@ -45,19 +50,19 @@ const Skills = () => {
                         <SiHtml5 className="hab"/>
                     </div>
 
-                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="650">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="600">
                         <SiCss3 className="hab"/>
                     </div>
 
-                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="800">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="700">
                         <FaSass className="hab"/>
                     </div>
 
-                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="950">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="800">
                         <SiBootstrap className="hab"/>
                     </div>
 
-                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="1100">
+                    <div className="cards-skills" data-aos="zoom-in-up" data-aos-delay="900">
                         <SiGit className="hab"/>
                     </div>
                 </div>
